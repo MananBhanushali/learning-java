@@ -1,7 +1,8 @@
 # Learning Java
 
 - Basics
-    - [Boilerplate](basics/boilerplate.md)
+    - [Hello World](basics/helloworld.md)
+    - [Data Types](basics/datatypes.md)
 
 ## Tutorials and References
 
