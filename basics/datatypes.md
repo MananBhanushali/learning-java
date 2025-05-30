@@ -41,6 +41,6 @@ Ex) byte = 8 bits --> n = 8
     Value range --> [-2^7 , 2^7 - 1]
 
 ## Variables
-```
+```java
 <datatype> <name> = <value>;
 ```
