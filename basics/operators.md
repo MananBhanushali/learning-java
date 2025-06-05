@@ -11,3 +11,6 @@
 - Bitwise
     - Bitwise AND ( & )
     - Bitwise OR ( | )
+  
+## Precedence and Associativity
+![Precedence and Associativity](precedence_associativity.png)
