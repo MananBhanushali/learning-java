@@ -4,6 +4,7 @@
     - [Hello World](basics/helloworld.md)
     - [Data Types](basics/datatypes.md)
     - [Inputs](basics/inputs.md)
+    - [Operators](basics/operators.md)
 
 ## Tutorials and References
 
