@@ -44,3 +44,13 @@ Ex) byte = 8 bits --> n = 8
 ```java
 <datatype> <name> = <value>;
 ```
+
+## Datatype Operations
+- byte + short = int
+- int + short = int
+- long + float = float
+- int + float = float
+- char + int = int
+- char + short = int
+- long + double = double
+- float + double = double
