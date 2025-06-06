@@ -5,6 +5,7 @@
     - [Data Types](basics/datatypes.md)
     - [Inputs](basics/inputs.md)
     - [Operators](basics/operators.md)
+    - [Strings](basics/strings.md)
 
 ## Tutorials and References
 

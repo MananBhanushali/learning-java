@@ -14,3 +14,6 @@ public class Main {
 }
 
 ```
+
+- sc.next() will take only first word of input
+- sc.nextLine() will take whole input
