@@ -25,7 +25,7 @@ String test = "test"; // Like Datatype
 - .equals("str") -> Returns boolean
 - .equalsIgnoreCase("str") -> Returns boolean
 
-## Escape Characters
+## Escape Sequence Characters
 - Newline ( \n )
 - Tab ( \t )
 - Single Quote ( \' )
