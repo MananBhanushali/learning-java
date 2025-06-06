@@ -54,3 +54,15 @@ Ex) byte = 8 bits --> n = 8
 - char + short = int
 - long + double = double
 - float + double = double
+
+## Type Conversion
+```java
+<required datatype> <name> = ( <required dataype> )( <value> )
+
+ex)
+char test1 = 'B';
+int test2 = test1 + 8; // Value will be int
+char test3 = (char)(test1 + 8); // Converted to char
+System.out.println(test3);
+// Will Print J
+```
