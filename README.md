@@ -6,6 +6,7 @@
     - [Inputs](basics/inputs.md)
     - [Operators](basics/operators.md)
     - [Strings](basics/strings.md)
+    - [Loops](basics/loops.md)
 
 ## Tutorials and References
 

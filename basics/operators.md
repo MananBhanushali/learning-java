@@ -3,11 +3,13 @@
 - Arithmetic 
     - Cannot work with booleans
     - Modulo Operator ( % ) works on floats and doubles ( Can give decimal remainder )
-- Assignment 
-- Comparision
+- Assignment ( = )
+- Relational ( Comparision )
+    - == ,>= ,<= ,> ,< ,!=
 - Logical
     - Logical AND ( && )
     - Logical OR ( || )
+    - Logical NOT ( ! )
 - Bitwise
     - Bitwise AND ( & )
     - Bitwise OR ( | )
