@@ -4,5 +4,35 @@
 
 ```java
 if ( condition ){ code }
-else {}
+else if ( condition ){ code }
+else { code }
+```
+
+## Switch Case ( If Else Ladder Alternative)
+
+```java
+switch( variable ){
+    case <value1>: // Like If Else
+        code
+        break; // If break not mentioned, all the other case snippets will also run once any condition matches
+    case <value2>:
+        code
+        break;
+    case <value3>:
+        code
+        break;
+    default: // Like Else
+        code
+}
+```
+
+**Enhanced Switch**
+
+```java
+switch( variable ){
+    case <value1> -> code;
+    case <value2> -> code;
+    case <value3> -> code;
+    default -> code;
+}
 ```
