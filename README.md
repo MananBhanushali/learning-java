@@ -7,6 +7,7 @@
     - [Operators](basics/operators.md)
     - [Strings](basics/strings.md)
     - [Loops](basics/loops.md)
+    - [Miscellaneous](basics/miscellaneous.md)
 
 ## Tutorials and References
 
