@@ -36,3 +36,22 @@ switch( variable ){
     default -> code;
 }
 ```
+
+## While Loop
+```java
+int i = 1;
+while ( i<=3 ){ // Will Run 3 times
+    code
+    i++;
+}
+```
+
+### Do While
+```java
+int i = 1;
+do {  // Will Run the first time even if condition not true
+    code
+    i++
+ }
+while ( condition );
+```
