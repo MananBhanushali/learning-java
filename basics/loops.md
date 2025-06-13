@@ -55,3 +55,10 @@ do {  // Will Run the first time even if condition not true
  }
 while ( condition );
 ```
+
+## For Loop
+```java
+for (int i=1; i<=10, i++){ // Will Run 10 times
+    code;
+}
+```
