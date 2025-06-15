@@ -8,6 +8,9 @@
     - [Strings](basics/strings.md)
     - [Loops](basics/loops.md)
     - [Miscellaneous](basics/miscellaneous.md)
+- Object Oriented Programming
+    - [Arrays](oops/arrays.md)
+
 
 ## Tutorials and References
 
