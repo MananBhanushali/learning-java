@@ -100,3 +100,22 @@ void foo(int x, int y){ // Valid
     system.out.println(x + y);
 }
 ```
+
+## Variable Arguments ( VarArgs )
+
+Used when a Method needs to have Indefinite Number of Arguments
+```java
+public class Main {
+    public static void main(String[] args){
+        System.out.println(test(1, 2, 4));
+    }
+
+    static int test(int a , int b, int ... extraArgsArray){ // Minimum Two Arguments required
+        int sum = a + b;
+        for (int i:extraArgsArray){
+            sum += i;
+        }
+        return sum;
+    }
+}
+```
