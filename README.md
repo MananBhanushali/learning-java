@@ -10,6 +10,7 @@
     - [Miscellaneous](basics/miscellaneous.md)
 - Object Oriented Programming
     - [Arrays](oops/arrays.md)
+    - [Methods](oops/methods.md)
 
 
 ## Tutorials and References
