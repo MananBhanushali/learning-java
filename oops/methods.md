@@ -104,6 +104,7 @@ void foo(int x, int y){ // Valid
 ## Variable Arguments ( VarArgs )
 
 Used when a Method needs to have Indefinite Number of Arguments
+
 ```java
 public class Main {
     public static void main(String[] args){
@@ -116,6 +117,22 @@ public class Main {
             sum += i;
         }
         return sum;
+    }
+}
+```
+
+## Recursion
+
+Calling of a function by itself is called Recursion
+( for ex: n factorial = n * n-1 factorial )
+
+```java
+int factorial(int n){
+    if (n==0 || n==1){
+        return 1;
+    }
+    else {
+        return n*factorial(n-1);
     }
 }
 ```
