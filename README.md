@@ -11,6 +11,7 @@
 - Object Oriented Programming
     - [Arrays](oops/arrays.md)
     - [Methods](oops/methods.md)
+    - [Classes](oops/classes.md)
 
 
 ## Tutorials and References
