@@ -30,3 +30,16 @@ String test = "test"; // Like Datatype
 - Tab ( \t )
 - Single Quote ( \' )
 - Backslash ( \\ )
+
+## Formatted Strings
+
+```java
+String name = String.format("Hello %s, %d", "world", 3000);
+system.out.println(name); // Will print Hello world, 3000
+OR
+system.out.printf("Hello %s, %d", "world", 3000); // Will give same output 
+```
+
+%s - insert a string   
+%d - insert a signed integer (decimal)  
+%f - insert a real number, standard notation   
