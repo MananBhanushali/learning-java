@@ -13,6 +13,7 @@
     - [Methods](oops/methods.md)
     - [Classes](oops/classes.md)
     - [Access Specifiers](oops/access_specifiers.md)
+    - [Constructors](oops/constructors.md)
 
 
 ## Tutorials and References
