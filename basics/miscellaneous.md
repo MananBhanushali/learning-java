@@ -83,7 +83,8 @@ import java.util.Randoom;
 public class Main{
     public static void main(String[] args){
         Random random = new Random();
-        num = random.nextInt(<max> + 1)
+        num = random.nextInt(<min>, <max> + 1)
+        // random.nextInt(<max> + 1) can also be used [Default min is 0]
     }
 }
 ```
