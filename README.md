@@ -12,6 +12,7 @@
     - [Arrays](oops/arrays.md)
     - [Methods](oops/methods.md)
     - [Classes](oops/classes.md)
+    - [Access Specifiers](oops/access_specifiers.md)
 
 
 ## Tutorials and References
