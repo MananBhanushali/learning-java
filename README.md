@@ -14,6 +14,8 @@
     - [Classes](oops/classes.md)
     - [Access Specifiers](oops/access_specifiers.md)
     - [Constructors](oops/constructors.md)
+- Mini Projects
+    - [Guess Game](mini_projects/guess_game.md)
 
 
 ## Tutorials and References
