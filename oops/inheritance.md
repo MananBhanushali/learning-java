@@ -114,7 +114,7 @@ public class Main {
 }
 ```
 
-### this and super
+## this and super
 
 **this** is used to refer to the class.  
 **this.something** is used to refer to any variables/methods of the class.
@@ -122,3 +122,27 @@ public class Main {
 **super** is used to refer the immediate parent class.
 **super.something** is used to refer to any variables/methods of the parent class.
 **super()** can be used to invoke parent class constructor.
+
+
+## Method Overriding
+
+If the Derived Class implements the same method present in the Base Class again, it is known as Method Overriding.    
+In that case, Derived Class Method overrides Base Class Method.
+
+>[!NOTE]
+Use **@Override** above the Derived Class Method , to know that a Method is being Overriden. When the Base Class Method is modified and if there is no Overriding , it will throw an error to let you know.
+
+```java
+class Base {
+    public void method() {
+        System.out.println("Base Class Method");
+    }
+}
+
+class Derived extends Base {
+    @Override
+    public void method() { // will run when method() is called on Object of Derived
+        System.out.println("Derived Class Method");
+    }
+}
+```
