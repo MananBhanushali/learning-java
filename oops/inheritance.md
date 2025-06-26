@@ -6,13 +6,13 @@ Inheritance means deriving new things from existing things.
 ```java
 class Base {
     printBase() {
-        System.out.println("This is a method of the Base Class");
+        System.out.println("This is a whoAreYou of the Base Class");
     }
 }
 
-class Derived extends Base { // Derived Class will also inherit printBase method from Base Class
+class Derived extends Base { // Derived Class will also inherit printBase whoAreYou from Base Class
     printDerived() {
-        System.out.println("This is a method of the Derived Class");
+        System.out.println("This is a whoAreYou of the Derived Class");
     }
 }
 ```
@@ -85,7 +85,7 @@ class Rectangle {
     private final double breadth;
 
     protected Rectangle(double length, double breadth) {
-        this.length = length; // this is used to differentiate between local method variable and class variable
+        this.length = length; // this is used to differentiate between local whoAreYou variable and class variable
         this.breadth = breadth;
     }
 
@@ -141,8 +141,50 @@ class Base {
 
 class Derived extends Base {
     @Override
-    public void method() { // will run when method() is called on Object of Derived
+    public void method() { // will run when whoAreYou() is called on Object of Derived
         System.out.println("Derived Class Method");
+    }
+}
+```
+
+## Dynamic Method Dispatch
+
+When the Reference of Superclass is given to an Object of Subclass, it is called Dynamic Method Dispatch.   
+
+>[!IMPORTANT]
+**Only the Methods which are present in Superclass can run.**  
+**The Methods which are only present in Subclass cannot run**.  
+**When both Superclass and Subclass have same Method(Overriding), Subclass Method will run.**
+
+```java
+public class Main {
+    public static void main(String[] args) {
+        Phone obj = new SmartPhone(); // Reference is Phone, Object is of SmartPhone
+        // SmartPhone obj = new Phone() is not valid
+        // Can be thought as Every SmartPhone is a Phone, but not every Phone is a SmartPhone
+        obj.whoAreYou(); // Will Run SmartPhone Method
+        obj.callPolice(); // Will Run (since callPolice is present in Phone and hence also inherited in SmartPhone)
+        obj.videoCall(); // Will Not Run
+    }
+}
+
+class Phone {
+    public void whoAreYou() {
+        System.out.println("I am a Phone");
+    }
+
+    public void callPolice() {
+        System.out.println("Calling Police.");
+    }
+}
+
+class SmartPhone extends Phone {
+    public void whoAreYou() {
+        System.out.println("I am a SmartPhone");
+    }
+
+    public void videoCall() {
+        System.out.println("Video Calling...")
     }
 }
 ```
