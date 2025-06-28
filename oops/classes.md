@@ -26,9 +26,3 @@ public class Main {
 
 >[!NOTE]
 There can only be one public class in a file (which is named as the filename).
-
-### Basic Terminologies in OOPS
-1. **Abstraction** : Hiding Internal details (show only essential info)
-2. **Encapsulation** : The Art of putting various things together (like a capsule)
-3. **Inheritance** : Deriving new things from existing things
-4. **Polymorphism** : One Entity, Many Forms
