@@ -147,3 +147,38 @@ class MyClass implements Derived {
 }
 
 ```
+
+### Polymorphism in Interfaces
+
+Similar to Dynamic Method Dispatch in Inheritance
+
+```java
+interface Camera {
+
+}
+
+interface GPS {
+
+}
+
+interface MediaPlayer {
+
+}
+
+class CellPhone {
+
+}
+
+class SmartPhone extends CellPhone implements Camera, GPS, MediaPlayer {
+
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Camera c = new SmartPhone(); // Can only use Camera Methods (Use SmartPhone but only as a Camera)
+        CellPhone cell = new SmartPhone(); // Dynamic Method Dispatch
+    }
+}
+
+```
+
