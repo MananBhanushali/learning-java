@@ -44,6 +44,8 @@ The final keyword is used to indicate that a variable, method, or class cannot b
 Declaring a variable as final prevents its value from being changed after initialization, useful for constants.  
 Final variables must be initialized either at the time of declaration or in the constructor of the class. This ensures that the value of the variable is set and cannot be changed.
 
+![Access Specifiers](access_specifiers.png)
+
 
 ## References 
 [Oracle Docs Access Specifiers](https://docs.oracle.com/javase/tutorial/java/javaOO/accesscontrol.html)

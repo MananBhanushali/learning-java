@@ -4,7 +4,7 @@
 
 **Java is a hybrid language (both compiled as well as interpreted)**
 
-![Compiler Interpreter Process](image.png)
+![Compiler Interpreter Process](packages.png)
 
 The **.java** file is system-specific.  
 It is compiled into a **.class** system-independent file by the command :  
