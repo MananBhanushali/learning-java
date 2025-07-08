@@ -16,6 +16,8 @@
     - [Constructors](oops/constructors.md)
     - [Inheritance](oops/inheritance.md)
     - [Abstraction](oops/abstraction.md)
+- Intermediate
+    - [Packages](intermediate/packages.md)
 - Mini Projects
     - [Guess Game](mini_projects/guess_game.md)
 
